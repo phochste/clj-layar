@@ -1,0 +1,4 @@
+"attribution (str)","title (str)","lat (float)","lon (float)","imageURL (str)","line4 (str)","line3 (str)","line2 (str)","type (int)","actions (str)","dimension (int)","alt (int)","relativeAlt (int)","transform (int)","object (int)","distance (float)"
+"My Office","My Office Location",51.218148,3.228478,"http://custom.layar.nl/layarimage.jpg","Brugge","Water","Etc",1,,1,,,,,
+"Your Office ","Your Office Location",51.223765,3.227577,"http://custom.layar.nl/layarimage.jpg","Brugge2","Dada","Lala",1,,1,,,,,
+"Our Office","Our Office Location ",51.217906,3.233585,"http://custom.layar.nl/layarimage.jpg","Brugge3","Mama","Papa",1,,1,,,,,

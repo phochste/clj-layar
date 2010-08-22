@@ -1,0 +1,41 @@
+# clj-layar
+
+Small demo application to server Layar POI's. Contains a small we interface
+to upload POI's from a CSV file.
+
+Used a small example for leiningen user tasks, the Ring toolkit and
+database interactions.
+
+## Usage
+
+1. Create a MYSQL database 
+
+mysql> create database layar;
+mysql> grant all on layar.* to 'layar'@'localhost' identified by 'mysecret';
+
+2. Optionally change the connection parameters
+
+Edit the globals in src/clj_layar/cor.clj to match your database
+credentials and layer name.
+
+3. Start the web server
+
+$ lein boot
+
+4a. Upload your POI's from the web
+
+Browse to http://localhost:8080 and upload the test.csv file in the
+package. Follow the instructions on the http://dev.layar.com site
+on how to obtain a layar dev key.
+
+4b. Upload your POI's from the command line
+
+$ lein layar test.csv
+
+## Installation
+
+## License
+
+Copyright (C) 2010 Patrick Hochstenbach <patrick.hochtenbach@gmail.com>
+
+Distributed under the Eclipse Public License, the same as Clojure.
