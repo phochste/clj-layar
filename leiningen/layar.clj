@@ -5,4 +5,4 @@
   [project & args] 
   (if-let [file (first args)]
     (main/upload file)
-    (println "usage: lein upload <file>")))
+    (println "usage: lein layar <file>")))
