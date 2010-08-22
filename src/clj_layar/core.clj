@@ -175,7 +175,7 @@
         db     (make-db +db-name+ +db-user+ +db-pass+)
         pois   (db-get-pois db lat lon radius)]
     {:status 200
-     :headers {"Content-Type" "text/plain"}
+     :headers {"Content-Type" "application/json; charset=utf-8"}
      :body (json/encode-to-str {
               "layer"       +layer+
               "hotspots"    pois
