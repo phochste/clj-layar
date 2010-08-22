@@ -15,7 +15,7 @@ mysql> grant all on layar.* to 'layar'@'localhost' identified by 'mysecret';
 
 2. Optionally change the connection parameters
 
-Edit the globals in src/clj_layar/cor.clj to match your database
+Edit the globals in src/clj_layar/core.clj to match your database
 credentials and layer name.
 
 3. Start the web server
