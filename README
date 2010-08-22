@@ -36,6 +36,6 @@ $ lein layar test.csv
 
 ## License
 
-Copyright (C) 2010 Patrick Hochstenbach <patrick.hochtenbach@gmail.com>
+Copyright (C) 2010 Patrick Hochstenbach <patrick.hochstenbach@gmail.com>
 
 Distributed under the Eclipse Public License, the same as Clojure.
